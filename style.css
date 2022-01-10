@@ -1,0 +1,20 @@
+.debug .container, .debug .container-fluid{
+    min-height: 100px;
+}
+
+.debug .row{
+    min-height: 50px;
+}
+.debug .box{
+    min-height: 50px;
+    text-align: center;
+    background-color: rgba(0,108,250,255);
+    color: white;
+    padding: 10px;
+    border: solid 1px white;
+}
+.debug .row .row .box{
+    background-color: rgba(0,225,101,255);
+    align-items: center;
+    border: solid 1px rgba(0,108,250,255);
+}
